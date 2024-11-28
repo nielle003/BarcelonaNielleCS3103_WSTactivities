@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<audio controls autoplay>
+    <source src="assets/Arcane.mp3" type="audio/mpeg">
+</audio>
+
+<body>
+
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <em>Dark Mode</em>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <h1>Nielle Barcelona</h1>
+            <p>Upcoming Developer & Tech Enthusiast</p>
+        </header>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>About Me</h3>
+                <p>Born on March 12, 2002, I'm a passionate developer based in Batangas. When I'm not coding, you'll
+                    find me exploring new technologies or catching up on some well-deserved rest or playing games
+                    (probably the latter).</p>
+            </div>
+
+
+            <div class="card">
+                <h3>Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-line html"><span></span></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-line js"><span></span></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>Web Development</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-line web"><span></span></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>Projects</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h4>Portfolio Website</h4>
+                        <p>A responsive personal portfolio showcasing my work and skills.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Task Manager</h4>
+                        <p>A web application for managing daily tasks and schedules.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>Contact</h3>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/nielle003" target="_blank">GitHub</a>
+                    <a href="mailto:22-08167@g.batstate-u.edu.ph">Email</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>Batangas State University</h4>
+                    <p>Computer Science</p>
+                    <p class="education-date">2022 - Present</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>Interests & Hobbies</h3>
+                <ul class="interests-list">
+                    <li>📱 Mobile Development</li>
+                    <li>💻 Web Technologies</li>
+                    <li>🤖 Artificial Intelligence</li>
+                    <li>🎮 Gaming</li>
+                    <li>💤 Sleeping</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
